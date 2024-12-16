@@ -1,7 +1,7 @@
 import pandas as pd
 
 
-data = pd.read_csv("data.csv", header=None)
+data = pd.read_csv("inputs/day_1_data.csv", header=None)
 list_1 = data.iloc[:, 0].copy()
 list_2 = data.iloc[:, 1].copy()
 
